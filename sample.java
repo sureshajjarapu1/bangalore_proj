@@ -5,5 +5,6 @@ class sample
 	{
 		System.out.println("this is by Hareesh");
 		System.out.println("this is by Suresh");
+		System.out.printin("this is by Arun");
 	}
 }
