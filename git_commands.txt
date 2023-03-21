@@ -1,0 +1,86 @@
+1) To clone the repo
+   command:  git clone <repo url>  [<localname>]
+   
+   eg.  git clone https://github.com/repo1.git      	(clones the code into a folder named 'repo1')
+        git clone https://github.com/repo1.git  suresh  (clones the code into a folder named 'suresh')
+		git clone https://github.com/repo1.git   .      (clones the code into current location)
+
+
+2) To know which branch you are currently in.
+   command:  git branch
+   
+   it shows the branches names and indicates the current branch with *
+   
+   eg. $ git branch
+           main
+		 * branch1
+		   branch2
+		 
+3) To create a new branch 
+   command:  git checkout -b <branch name>   <base branch> 
+   eg.  $ git checkout -b branch1 remotes/origin/main       (creating a new branch on the default branch 'main')
+															(remotes/origin indicates server)
+		
+	Switched to new branch 'branch1'
+	branch1   remotes/origin/main	
+	$ git branch
+		main
+	  *	branch1 
+								
+4) To push the local branch to the server
+   command: git push origin <branchname>
+
+   eg.  $ git push origin branch1
+
+5) To switch/change to a branch 
+   command: git checkout <branchname>
+  eg. 
+     git branch
+     git checkout branch2
+
+6) To commit the changes like creation,modification,deletion of any files 
+   
+   make sure that the new files are being added before commit
+   command:  git add <filename>
+   eg.  git add newfile.txt
+
+   Do commit now.
+   
+   command: git commit -a -m "message description" 
+  eg. $ git commit -a -m "files added" 
+
+7) To push the current changes to server, use git push command.
+  
+	 
+	 
+	 
+main
+  release_1.0.0.0
+		feature_1ofrel1
+		    suresh_branch
+			ramesh_branch
+			arun_branch
+		feature_2ofrel1
+			hema_branch
+			netra_branch
+			
+			
+after the completion of feature1, branch feature1ofrel1 is merged into release_1.0.0.0 branch and hence feature_1ofrel1 will not be present.
+
+main
+	release_1.0.0.0
+		feature2_ofrel1   (netra_branch is merged and completed)
+			hema_branch 	
+		
+
+
+once feature2 also completed, then
+
+main
+	release_1.0.0.0
+	
+	release_1.1.0.0
+  
+  
+  https://github.com/sureshajjarapu1/java-new.git
+  
