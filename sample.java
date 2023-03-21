@@ -7,4 +7,3 @@ class sample
 		System.out.println("this is by Suresh");
 	}
 }
-
