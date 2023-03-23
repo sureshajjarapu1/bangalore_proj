@@ -84,10 +84,23 @@ main
   
   https://github.com/sureshajjarapu1/java-new.git
   
-  8. To restore the file before commit command
+  8. To Undo the file before commit command
 
   git checkout -- file name
 
   ex : git checkout -- arun_file.java
   
-  
+  9. To Undo multpul file before commit command 
+
+  git checkout -- . file name
+
+  ex : git checkout -- . arun_file.java
+
+  10. To Undo file after commit command
+
+  git rm file name
+
+  ex : git rm arun_file.java
+
+
+
