@@ -84,3 +84,10 @@ main
   
   https://github.com/sureshajjarapu1/java-new.git
   
+  8. To restore the file before commit command
+
+  git checkout -- file name
+
+  ex : git checkout -- arun_file.java
+  
+  
